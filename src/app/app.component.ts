@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  imgSrc: string = '../assets/images/about_1.jpg';
   title = 'jmedical-webapp';
 }
