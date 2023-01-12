@@ -1,19 +1,19 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HeaderAppComponent } from './components/header-app/header-app.component';
-import { FotterComponent } from './components/fotter/fotter.component';
-import { FotterAppComponent } from './components/fotter-app/fotter-app.component';
-
-
+import { FooterAppComponent } from './components/footer-app/footer-app.component';
 
 @NgModule({
   declarations: [
-    HeaderAppComponent,
-    FotterComponent,
-    FotterAppComponent
+   HeaderAppComponent,
+   FooterAppComponent
   ],
   imports: [
     CommonModule
+  ],
+  exports:[
+    HeaderAppComponent,
+    FooterAppComponent
   ]
 })
 export class SharedModule { }
