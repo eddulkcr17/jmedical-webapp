@@ -1,0 +1,32 @@
+.edu-navigation {
+  height: auto;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.1rem;
+  background-color: rgb(74 222 128 / 1);
+}
+
+.work-sans {
+  font-family: "Work Sans", sans-serif;
+}
+
+.container {
+  background-color: rgb(74 222 128 / 1);
+  align-items: center;
+}
+
+#menu-toggle:checked + #menu {
+  display: flex;
+  background-color: rgb(74 222 128 / 1);
+}
+
+.hover\:grow {
+  transition: all 0.3s;
+  transform: scale(1);
+}
+
+.hover\:grow:hover {
+  transform: scale(1.02);
+}
