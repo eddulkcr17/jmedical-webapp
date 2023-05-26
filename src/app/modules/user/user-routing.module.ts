@@ -4,6 +4,8 @@ import { UserListComponent } from './user-list/user-list.component';
 import { UserDetailComponent } from './user-detail/user-detail.component';
 import { LandingComponent } from './landing/landing.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
+import { ContactusComponent } from './contactus/contactus.component';
+
 
 
 const routes: Routes = [
@@ -22,6 +24,10 @@ const routes: Routes = [
   {
     path:'aboutUs',
     component: AboutusComponent
+  },
+  {
+    path:'contact',
+    component: ContactusComponent
   },
   
 
