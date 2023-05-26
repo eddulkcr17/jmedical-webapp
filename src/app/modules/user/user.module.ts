@@ -4,6 +4,8 @@ import { UserRoutingModule } from './user-routing.module';
 import { UserListComponent } from './user-list/user-list.component';
 import { UserDetailComponent } from './user-detail/user-detail.component';
 import { LandingComponent } from './landing/landing.component';
+import { AboutusComponent } from './aboutus/aboutus.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 
@@ -12,6 +14,8 @@ import { LandingComponent } from './landing/landing.component';
     UserDetailComponent,
     UserListComponent,
     LandingComponent,
+    AboutusComponent,
+    ContactComponent,
   ],
   imports: [
     SharedModule,
